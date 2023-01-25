@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: #090a0e;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*mobile < 480*/
+/*tablet < 768*/
+/*desktop < 1024*/

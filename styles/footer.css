@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #000000;
+  border-top: 5px solid #ffff00;
+}
+
+.footer-list {
+  display: flex;
+  margin: 0px auto 5px auto;
+  list-style: none;
+}
+
+.footer-list li {
+  margin: 0px 10px;
+}

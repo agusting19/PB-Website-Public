@@ -1,0 +1,114 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px;
+}
+
+.upperContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.tableContainer,
+.tableContainer2,
+.tableContainer3 {
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.table {
+  margin: 0px auto;
+  width: 100%;
+  color: #ffffff;
+  border-collapse: collapse;
+}
+
+.tableHeader {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.tableHeader th,
+.tableHeader3 th {
+  padding: 10px 0px;
+}
+
+.tableBody tr {
+  border: 1px solid #ffffff;
+}
+
+.tableBody td {
+  padding: 20px 5px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.table3 {
+  width: 100%;
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+.table3 tr {
+  color: #ffffff;
+  background-color: #090a0e;
+  border: 2px solid #ffff00;
+}
+
+.table3 td {
+  padding: 20px 5px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.payment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  max-width: 600px;
+  padding: 10px 0px;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+.payment > h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.payment-methods {
+  text-align: center;
+}
+
+.payment-methods h4,
+.payment-methods p {
+  padding: 5px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .upperContainer {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .tableContainer,
+  .tableContainer2 {
+    width: 45%;
+    margin: 0px;
+  }
+
+  .tableContainer3 {
+    margin: 20px auto;
+  }
+
+  .second-table {
+    margin: 0px 0px 0px 20px;
+    height: 100%;
+  }
+}
