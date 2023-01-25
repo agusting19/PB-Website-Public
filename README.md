@@ -16,5 +16,4 @@ Here we can see:
 
 ## Considerations
 
-This website was made it to facilitate our organization, and also to get more practice.
-None of the personal data in this repository is real.
+This website was made in march of 2022. None of the personal data in this repository is real.
